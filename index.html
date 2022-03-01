@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Image Sider Design</title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+	
+	<body>
+		<div class="container">
+          <!-- Slider main container -->
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide"><img src="images/carpet-9.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-10.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-8.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-7.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-6.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-5.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-4.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-3.jpeg></div>
+	  <div class="swiper-slide"><img src="images/carpet-2.jpeg"></div>
+	  <div class="swiper-slide"><img src="images/carpet-1.jpeg"></div>
+	 
+	  
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+  </div>
+ </div>
+		
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+	<script>
+		const swiper = new Swiper('.swiper', {
+			autoplay: {
+					delay: 2000,
+					disableOnInteraction: false,
+				},	
+				loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+	clickable: true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+
+  },
+});
+
+	</script>
+
+	
+		
+	</body>
+	
+</html>
+
+
